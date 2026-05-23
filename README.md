@@ -1,108 +1,267 @@
-# Millings Method™
-
-Canonical architecture map and documentation hub for the Millings Layering Method™ and its governance, authorship, and structural integrity systems.
-
----
-
-## Overview
-
-The Millings Method™ is a governance-first architecture designed to enforce:
-
-- human-authored authority
-- structural integrity of system state
-- pre-execution control over automated processes
-
-It introduces a control point **before execution**, ensuring that systems act only on valid, verified, and governed state.
-
----
-
-## Core Principle
-
-The system operates on a strict sequence:
-
-**provenance → chronology → constraint validation → execution decision**
-
-No system action occurs unless all required governance layers are satisfied.
-
----
-
-## System ArchitectureMillings Method™
-
-├─ Governance Framework → millings-method-governance-framework
-├─ GuardianOS → guardianos
-├─ Constraint Layer → millings-constraint-layer
-├─ Execution Gate → millings-gate
-├─ Structural Integrity Reference → mmct-structural-integrity-reference
-└─ Evaluation Systems → mlag-eval---
+# Millings Method™ Canonical Architecture
 
 ## Purpose
 
-The architecture exists to ensure:
+This document defines the canonical authority structure for the Millings Method™ repository ecosystem.
 
-- authorship traceability across systems
-- integrity of state before execution
-- constraint-based decision enforcement
-- controlled and auditable automation
-- transparent governance in AI and system workflows
+It exists to prevent repository drift, duplicate semantic authority, implementation confusion, and uncontrolled expansion.
+
+The Method now governs its own architecture.
 
 ---
 
-## Governance Model
+## Core Invariant
 
-The Millings Method™ enforces:
+Execution must never inherit permission from repaired failure.
 
-- No execution without validated state
-- No transition from reasoning to action without constraint verification
-- No reliance on narrative, volume, or unverified signals
-
-Execution is permitted only when:
-
-- provenance is established  
-- constraints are satisfied  
-- authority is verified  
+Invalid execution must be made unreachable before consequence binds.
 
 ---
 
-## System Role
+## Canonical Authority Order
 
-This repository acts as the **central architecture map**, connecting all subsystem repositories.
+### Tier 0 — Constitutional Root
 
-Each subsystem represents a functional layer of the broader framework:
-- governance
-- constraint enforcement
-- execution gating
-- structural validation
-- evaluation systems
+Repository:
 
----
+`Millings-Method`
 
-## Applications
+Purpose:
 
-- AI governance systems  
-- agentic AI validation layers  
-- workflow orchestration  
-- enterprise system control frameworks  
-- decision validation engines  
+Canonical architecture map and documentation hub for the Millings Layering Method™.
 
----
+Authority:
 
-## Authorship & Origin
+Highest authority.
 
-See `ORIGIN_OF_SYSTEM.md` for documentation of system origin and authorship.
+This repository defines:
 
----
+- canonical terminology
+- repo hierarchy
+- invariant registry
+- architecture map
+- authorship boundary
+- governance spine
+- public continuity record
 
-## Direction
-
-This repository will continue to expand to include:
-
-- executable validation systems  
-- API integration layers  
-- governance enforcement modules  
-- real-world system implementations  
+All other repositories must point back here.
 
 ---
 
-## License
+### Tier 1 — Core Method Doctrine
 
-MIT
+Repository:
+
+`millings-method-core`
+
+Purpose:
+
+Governance-first architecture for pre-execution control, authorship verification, admissibility, and structural integrity in AI systems.
+
+Authority:
+
+Defines the operational doctrine of the Method.
+
+Includes:
+
+- admissibility doctrine
+- execution boundary logic
+- continuation control
+- authority requirements
+- human-authored governance invariants
+
+---
+
+### Tier 2 — Canonical Gate Implementation
+
+Repository:
+
+`millings-gate`
+
+Purpose:
+
+Canonical reference implementation of pre-execution human authorization enforcement.
+
+Authority:
+
+Primary executable implementation of the Gate.
+
+Includes:
+
+- strict binary PERMIT / HALT logic
+- no correction inside the Gate
+- authority verification
+- evidence preservation
+- escalation routing
+- restoration handoff
+- replayable audit trail
+
+Core rule:
+
+The Gate does not repair.  
+The Gate only permits or halts.
+
+---
+
+### Tier 3 — Runtime Control Plane
+
+Repository:
+
+`guardianos`
+
+Purpose:
+
+Governance, security, and continuity control plane of the Millings Layering Method™.
+
+Authority:
+
+Runtime orchestration layer.
+
+Includes:
+
+- multi-agent governance
+- continuation supervision
+- interruption routing
+- escalation management
+- runtime admissibility enforcement
+- system-wide coordination
+
+---
+
+### Tier 4 — Standards and Conformance
+
+Repositories:
+
+`lags-standard`  
+`millings-conformance-standard`  
+`cfas-claim-form-accountability-standard`
+
+Purpose:
+
+Standards, mappings, and certification frameworks.
+
+Authority:
+
+Regulatory and conformance layer.
+
+These repositories do not override the Method.
+
+They translate the Method into:
+
+- standards language
+- audit language
+- compliance language
+- certification language
+- sector-specific governance language
+
+---
+
+### Tier 5 — Specialized Modules and Research Branches
+
+Repositories include:
+
+`state-admissibility-layer`  
+`admissible-state-engine`  
+`execution-validity-engine`  
+`state-validated-security`  
+`millings-signal-control`  
+`millings-signal-control-system`  
+`dsve-directional-state-validation-engine`  
+`rcl-governance-engine`  
+`energy-bounded-authorship`  
+`mlm-merkle-authority-reference`  
+`aapt-admissibility-layer`
+
+Purpose:
+
+Specialized branches, experiments, proofs, domain modules, or applied demonstrations.
+
+Authority:
+
+Subordinate to Tiers 0–4.
+
+These repositories may demonstrate, extend, or test concepts, but they do not define canonical doctrine unless elevated by this document.
+
+---
+
+## Deprecated Overlap Rule
+
+Where multiple repositories express the same concept, the following order controls:
+
+1. `Millings-Method`
+2. `millings-method-core`
+3. `millings-gate`
+4. `guardianos`
+5. standards repositories
+6. specialized modules
+
+No lower-tier repository may redefine a higher-tier invariant.
+
+---
+
+## Terminology Freeze
+
+The following terms are canonical:
+
+- Millings Method™
+- Millings Layering Method™
+- Admissibility Layer™
+- Millings Gate™
+- Human Lead
+- Authored Human Intelligence™
+- Execution Boundary
+- Continuation Control
+- Restoration Flow
+- PERMIT
+- HALT
+- State
+- Signal
+- Authority
+- Evidence Preservation
+- Replayability
+- Runtime Governance
+
+---
+
+## Implementation Boundary
+
+The Method separates:
+
+- doctrine
+- restoration
+- gate evaluation
+- execution
+- runtime orchestration
+- audit replay
+
+These layers must not collapse into each other.
+
+The Gate cannot repair.  
+The Restoration Flow cannot execute.  
+Execution cannot proceed without PERMIT.  
+Audit cannot substitute for admissibility.
+
+---
+
+## Canonical Sequence
+
+1. Stabilize doctrine.
+2. Freeze terminology.
+3. Define repository authority.
+4. Update `millings-gate`.
+5. Build Restoration Flow.
+6. Re-enter restored states as new candidates.
+7. Expand into GuardianOS runtime orchestration.
+8. Map outward into standards and compliance.
+
+---
+
+## Self-Governance Statement
+
+The Millings Method™ now applies its own admissibility logic to its repository ecosystem.
+
+A repository may exist.
+
+But existence is not authority.
+
+Authority must resolve through the canonical architecture before implementation proceeds.
