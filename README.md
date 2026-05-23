@@ -98,6 +98,7 @@ Includes:
 
 Core rule:
 
+
 The Gate does not repair.  
 The Gate only permits or halts.
 
