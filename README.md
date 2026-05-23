@@ -1,4 +1,25 @@
-# Millings Method™ Canonical Architecture
+## Canonical Architecture Authority
+
+The authoritative governance structure for the Millings Method™ repository ecosystem is defined in:
+
+`CANONICAL_ARCHITECTURE.md`
+
+This document defines:
+
+- canonical authority order
+- terminology freeze
+- implementation boundaries
+- invariant hierarchy
+- repository admissibility
+- governance sequencing
+- restoration boundaries
+- runtime orchestration authority
+
+All repositories within the Millings Method™ ecosystem inherit authority from that document.
+
+No lower-tier repository may redefine a higher-tier invariant.
+
+Execution must never inherit permission from repaired failure.# Millings Method™ Canonical Architecture
 
 ## Purpose
 
