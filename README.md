@@ -15,7 +15,38 @@ This document defines:
 - restoration boundaries
 - runtime orchestration authority
 
-All repositories within the Millings Method™ ecosystem inherit authority from that document.
+All repositories within the Millings Method™ ecosystem inherit authority from that document.## Category Definition
+
+Millings Method™ is a Human-Authored System Error Auditing™ framework.
+
+The Method audits finalized institutional decisions by layering:
+
+- the original record
+- governing rules
+- decision logic
+- adjudicative reasoning
+- final outcomes
+
+to identify where a system produced an invalid result while maintaining the appearance of procedural correctness.
+
+Authored Human Intelligence (AHI) serves as the governing philosophy behind the framework.
+
+The human auditor controls the audit path, evidentiary weighting, admissibility boundaries, and interpretation of findings.
+
+Technology functions as an analytical support layer used to surface contradictions, omissions, procedural defects, and outcome-determinative errors.
+
+The central question is:
+
+"Was the wrong outcome produced from facts or law already present at the time?"
+
+Core category:
+
+Human-Authored System Error Auditing™
+
+Core public positioning:
+
+"We identify where official systems produce wrong outcomes while appearing procedurally correct."
+
 
 No lower-tier repository may redefine a higher-tier invariant.
 
